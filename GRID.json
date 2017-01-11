@@ -1,0 +1,2393 @@
+{
+"network": {
+  "id": 20,
+  "name": "Grid Bike Share",
+  "city": "Phoenix, AZ",
+  "landing_page_address": "",
+  "disabled": false,
+  "disabled_message": null,
+  "timezone_name": "America/Phoenix",
+  "currency": "USD",
+  "default_currency": "USD",
+  "icon": "https://s3.amazonaws.com/speed-gear/icons/20/huge/logo-on-white.png?1406832564",
+  "center": {
+    "type": "Point",
+    "coordinates": [-112.08449363708496, 33.44103917500465]
+  },
+  "no_payment": false,
+  "collect_phone_from_users": true,
+  "collect_rfid_from_users": false,
+  "custom_fields": [{
+    "name": "Shipping Address",
+    "key": "shipping_address",
+    "type": "AlphaNum",
+    "required": true,
+    "options": [],
+    "payment_plan_ids": [0, 42, 0, 40, 0, 41, 0, 144, 0, 214, 0, 258, 0, 290, 0, 296, 0, 297, 0, 192, 0, 101, 0, 43, 0, 358, 0, 357, 0, 356, 0, 359]
+  }, {
+    "name": "Business Name",
+    "key": "business_name",
+    "type": "AlphaNum",
+    "required": true,
+    "options": [],
+    "payment_plan_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 359]
+  }],
+  "booking_time": 900,
+  "contact_email": "info@gridbikes.com",
+  "contact_phone_number": "602.753.4743",
+  "default_units_of_measurement": "imperial",
+  "default_locale": "en"
+},
+"areas": [{
+  "id": 80,
+  "name": "Phoenix",
+  "network_id": 20,
+  "distance": null,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.14603424072264, 33.57000543108403],
+        [-112.07393646240234, 33.56971937037364],
+        [-111.98467254638672, 33.52136149810032],
+        [-111.98432922363281, 33.47440846922151],
+        [-111.98501586914062, 33.461663774048354],
+        [-111.98304176330566, 33.448953012546816],
+        [-111.98008060455322, 33.438854685466914],
+        [-111.97892189025879, 33.433267871879885],
+        [-111.97875022888184, 33.43086829665599],
+        [-111.98196887969969, 33.42939986715579],
+        [-111.98484420776367, 33.42821794243981],
+        [-111.98999404907227, 33.425782410457266],
+        [-111.9935131072998, 33.42252298868637],
+        [-111.99291229248047, 33.38959955347486],
+        [-111.99291229248047, 33.37411872061922],
+        [-112.0063018798828, 33.372111744203934],
+        [-112.03479766845703, 33.36408337548664],
+        [-112.07565307617186, 33.35978215892918],
+        [-112.1480941772461, 33.35892189010588],
+        [-112.14603424072264, 33.57000543108403]
+      ]
+    ]
+  }
+}, {
+  "id": 81,
+  "name": "Tempe",
+  "network_id": 20,
+  "distance": null,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.8906021118164, 33.46588834694524],
+        [-111.98278427124023, 33.46588834694524],
+        [-111.97763442993164, 33.430366884497964],
+        [-111.99274063110352, 33.42284535453425],
+        [-111.99265480041504, 33.3746921339466],
+        [-111.97952270507812, 33.32335667359095],
+        [-111.89128875732422, 33.32421729380816],
+        [-111.8906021118164, 33.46588834694524]
+      ]
+    ]
+  }
+}, {
+  "id": 213,
+  "name": "Mesa",
+  "network_id": 20,
+  "distance": null,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.88888549804686, 33.376125650726124],
+        [-111.88974380493164, 33.43301717309451],
+        [-111.86811447143555, 33.4373147663489],
+        [-111.86330795288086, 33.44247159730202],
+        [-111.85575485229492, 33.44476342378378],
+        [-111.8459701538086, 33.45149531390295],
+        [-111.83481216430664, 33.45607842946798],
+        [-111.83069229125975, 33.45722417051078],
+        [-111.82622909545898, 33.45994524480914],
+        [-111.82313919067381, 33.463811887690504],
+        [-111.81867599487305, 33.46438470900496],
+        [-111.8136978149414, 33.464814322506676],
+        [-111.80425643920898, 33.464814322506676],
+        [-111.79447174072266, 33.464241504031236],
+        [-111.78279876708984, 33.465816745730024],
+        [-111.77850723266602, 33.469110340410516],
+        [-111.77438735961914, 33.46896714324436],
+        [-111.7690658569336, 33.46925353734004],
+        [-111.76151275634766, 33.46968312670899],
+        [-111.75790786743164, 33.46996951843864],
+        [-111.74949645996094, 33.46982632269211],
+        [-111.74966812133789, 33.422415533137745],
+        [-111.74983978271484, 33.37540889528978],
+        [-111.79515838623045, 33.376125650726124],
+        [-111.80614471435547, 33.375552246849594],
+        [-111.81953430175781, 33.376125650726124],
+        [-111.83395385742186, 33.376125650726124],
+        [-111.85317993164062, 33.376125650726124],
+        [-111.87343597412108, 33.375838949260405],
+        [-111.88888549804686, 33.376125650726124]
+      ]
+    ]
+  }
+}],
+"hubs": [{
+  "id": 290,
+  "name": "P127 Central / Roosevelt",
+  "racks_amount": 24,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1000-1034 North Central Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 9,
+  "available_bikes": 9,
+  "free_racks": 15,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07383453845978, 33.45971252468907],
+        [-112.07381844520569, 33.460021326251365],
+        [-112.07389891147614, 33.460021326251365],
+        [-112.07393646240234, 33.45973490165084],
+        [-112.0741456747055, 33.4592515579917],
+        [-112.07429051399231, 33.45899198343299],
+        [-112.07447826862335, 33.45876821163792],
+        [-112.07460165023804, 33.45862947283493],
+        [-112.07373797893524, 33.458678702758185],
+        [-112.07373797893524, 33.45952455798222],
+        [-112.07383453845978, 33.45971252468907]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.074010667085, 33.4591031356657]
+  }
+}, {
+  "id": 297,
+  "name": "P131 Central / Willetta Sponsored by Phoenix Libraries",
+  "racks_amount": 24,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1401 North Central Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 7,
+  "available_bikes": 7,
+  "free_racks": 17,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07370445132256, 33.46400432027306],
+        [-112.0738224685192, 33.46400432027306],
+        [-112.07381106913088, 33.46336884360904],
+        [-112.07354754209518, 33.4633649278053],
+        [-112.07355625927448, 33.46380909070214],
+        [-112.07356095314026, 33.46400599846231],
+        [-112.07370445132256, 33.46400432027306]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.073689688038, 33.4638486462657]
+  }
+}, {
+  "id": 299,
+  "name": "P113 11th St. / Washington",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1010-1098 East Washington Street, Phoenix",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.05954238772392, 33.4480690082584],
+        [-112.05900326371193, 33.44807572224899],
+        [-112.05900326371193, 33.44840023117387],
+        [-112.05955043435097, 33.44839351720841],
+        [-112.05954506993294, 33.448303997619306],
+        [-112.05954238772392, 33.4480690082584]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.059274069241, 33.4482349606463]
+  }
+}, {
+  "id": 302,
+  "name": "P125 Pierce / 1st Street",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "702, North 1st Street, Encanto, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 7,
+  "available_bikes": 7,
+  "free_racks": 7,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.0729386806488, 33.45544289470532],
+        [-112.0727214217186, 33.455440656898624],
+        [-112.0727214217186, 33.455371284862586],
+        [-112.07237541675568, 33.455371284862586],
+        [-112.07237675786018, 33.455405970887554],
+        [-112.07234725356102, 33.45540708979134],
+        [-112.07234993577002, 33.45565660497807],
+        [-112.07294270396233, 33.45565772387866],
+        [-112.0729386806488, 33.45544289470532]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.072627733184, 33.4555259184901]
+  }
+}, {
+  "id": 305,
+  "name": "P116 6th St. / Monroe sponsored by SRP",
+  "racks_amount": 9,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "567-599 East Monroe Street, Arizona State University Downtown Phoenix, Phoenix",
+  "distance": null,
+  "current_bikes": 4,
+  "available_bikes": 4,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06689298152922, 33.4501794137021],
+        [-112.06612586975096, 33.45017493781701],
+        [-112.06613659858704, 33.45051958029342],
+        [-112.06689834594727, 33.450524056160724],
+        [-112.06689298152922, 33.4501794137021]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.06649601459503, 33.4503360695349]
+  }
+}, {
+  "id": 309,
+  "name": "P123 5th Ave / Fillmore",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "604, North 5th Avenue, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.08052396774292, 33.45507589363627],
+        [-112.08052396774292, 33.45455671873933],
+        [-112.07990169525146, 33.454538816101234],
+        [-112.07990169525146, 33.45507589363627],
+        [-112.08052396774292, 33.45507589363627]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.08021107366, 33.454811805242]
+  }
+}, {
+  "id": 314,
+  "name": "P133 5th Ave / McDowell",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1500-1598 North 5th Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 8,
+  "available_bikes": 8,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.08016321063042, 33.465756332158676],
+        [-112.08015248179436, 33.465276378401455],
+        [-112.08061382174492, 33.46527525962501],
+        [-112.08061516284943, 33.46576080723949],
+        [-112.08016321063042, 33.465756332158676]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.080386602526, 33.4655163627553]
+  }
+}, {
+  "id": 316,
+  "name": "P144 Central / Lexington",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "Light Rail, North Central Avenue, Encanto, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 9,
+  "available_bikes": 9,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07459896802902, 33.48714905312969],
+        [-112.07447826862335, 33.48536391826373],
+        [-112.07291722297668, 33.48541760706705],
+        [-112.07318544387817, 33.48736604069934],
+        [-112.07459896802902, 33.48714905312969]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.073781944336, 33.4863116895857]
+  }
+}, {
+  "id": 321,
+  "name": "P139 Central / Vernon Sponsored by TJ Vernon, LLC",
+  "racks_amount": 9,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "2334 North Central Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 1,
+  "available_bikes": 1,
+  "free_racks": 7,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07449530066697, 33.47456663185484],
+        [-112.07363408360834, 33.47456360675743],
+        [-112.07363337278366, 33.473862562134066],
+        [-112.07450146169322, 33.473865687897586],
+        [-112.07449530066697, 33.47456663185484]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.074066048658, 33.474214157849]
+  }
+}, {
+  "id": 322,
+  "name": "P147 7th Ave / Glenrosa",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "4130, North 7th Avenue, Encanto, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.08372920751572, 33.49854128389337],
+        [-112.0837265253067, 33.498123021150015],
+        [-112.08342611789703, 33.498136441376374],
+        [-112.08341270685196, 33.49855246736144],
+        [-112.08372920751572, 33.49854128389337]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.08357095718384, 33.49833774425573]
+  }
+}, {
+  "id": 323,
+  "name": "P148 Central / Glenrosa",
+  "racks_amount": 13,
+  "description": "sponsored by SRP",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "11 West Glenrosa Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 8,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07352876663208, 33.49821025258413],
+        [-112.07352876663208, 33.49785237947453],
+        [-112.07406520843506, 33.49779869838049],
+        [-112.07406520843506, 33.49819235896379],
+        [-112.07352876663208, 33.49821025258413]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.073801245027, 33.4980131383229]
+  }
+}, {
+  "id": 325,
+  "name": "P150 Central / Camelback",
+  "racks_amount": 21,
+  "description": "sponsored by SRP ",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "Light Rail, West Camelback Road, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 12,
+  "available_bikes": 12,
+  "free_racks": 8,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07336783409119, 33.50739813804278],
+        [-112.07664012908934, 33.507362354597014],
+        [-112.0766830444336, 33.50987610567087],
+        [-112.07352876663208, 33.50980454081385],
+        [-112.07336783409119, 33.50739813804278]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.075066378634, 33.5086025352445]
+  }
+}, {
+  "id": 329,
+  "name": "P122 Grand Ave / McKinley",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "Grand Avenue, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 3,
+  "available_bikes": 3,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.08942890167236, 33.45711675793117],
+        [-112.08942890167236, 33.456830323734984],
+        [-112.08897829055786, 33.456830323734984],
+        [-112.08934307098389, 33.45720626842342],
+        [-112.08942890167236, 33.45711675793117]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.089269123464, 33.456967738827]
+  }
+}, {
+  "id": 330,
+  "name": "P146 4th Ave / Clarendon",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "401 West Clarendon Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07919359207153, 33.49166094050417],
+        [-112.07919359207153, 33.491213565046394],
+        [-112.07882881164551, 33.491213565046394],
+        [-112.07882881164551, 33.49171462540377],
+        [-112.07919359207153, 33.49166094050417]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.079007760543, 33.4914509272301]
+  }
+}, {
+  "id": 358,
+  "name": "P101 5th Street / Grant Sponsored by WebPT",
+  "racks_amount": 11,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "East Grant Street, Central City, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06717729568481, 33.44130775598689],
+        [-112.06614196300507, 33.44130999415826],
+        [-112.06615805625916, 33.440560203522736],
+        [-112.06719338893889, 33.440557965332026],
+        [-112.06717729568481, 33.44130775598689]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.066667675974, 33.44093397975]
+  }
+}, {
+  "id": 359,
+  "name": "P104 Jackson / 2nd Street sponsored by SRP",
+  "racks_amount": 10,
+  "description": "US Airways Center",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "200 East Jackson Street, Phoenix",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07198917865752, 33.44520880100508],
+        [-112.07198917865752, 33.4455579393384],
+        [-112.07042276859283, 33.445546749029],
+        [-112.07042813301086, 33.444801471173406],
+        [-112.07198917865752, 33.444814899659896],
+        [-112.07198917865752, 33.44520880100508]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.071206914651, 33.4451804740693]
+  }
+}, {
+  "id": 360,
+  "name": "P114 Adams / 2nd Ave",
+  "racks_amount": 11,
+  "description": "Orpheum Theatre",
+  "network_id": 20,
+  "has_kiosk": true,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "Orpheum Theatre, 203, West Adams Street, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 2,
+  "available_bikes": 2,
+  "free_racks": 7,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07756280899048, 33.44882320994985],
+        [-112.0760715007782, 33.44882320994985],
+        [-112.07607686519621, 33.45012122717786],
+        [-112.07760035991669, 33.45010779951287],
+        [-112.07756280899048, 33.44882320994985]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07670064254, 33.4493486960483]
+  }
+}, {
+  "id": 361,
+  "name": "P115 Adams / 2nd Street",
+  "racks_amount": 8,
+  "description": "Hyatt, Symphony Hall",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "180-198 East Adams Street, Phoenix",
+  "distance": null,
+  "current_bikes": 2,
+  "available_bikes": 2,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07089751958847, 33.44862179174235],
+        [-112.07165658473969, 33.448612839811176],
+        [-112.07182824611662, 33.450454680191484],
+        [-112.07088679075241, 33.450461393997394],
+        [-112.07089751958847, 33.44862179174235]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.071453940019, 33.4494416771378]
+  }
+}, {
+  "id": 363,
+  "name": "P137 12th Street / Oak",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1200 East Oak Street, Phoenix",
+  "distance": null,
+  "current_bikes": 4,
+  "available_bikes": 4,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.05671668052673, 33.47321820835941],
+        [-112.05598175525665, 33.47321820835941],
+        [-112.05597639083862, 33.472833383680936],
+        [-112.05670595169067, 33.47285128254109],
+        [-112.05671668052673, 33.47321820835941]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.056342282703, 33.4730304810094]
+  }
+}, {
+  "id": 364,
+  "name": "P149 Central / Campbell",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "4412, North Central Avenue, Encanto, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 4,
+  "available_bikes": 4,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07442462444304, 33.50111791675684],
+        [-112.07361996173857, 33.50106871094481],
+        [-112.07360923290253, 33.5022317499282],
+        [-112.0744514465332, 33.50225858910488],
+        [-112.07442462444304, 33.50111791675684]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.074024910907, 33.5016735723]
+  }
+}, {
+  "id": 365,
+  "name": "P154 Central / Thomas",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "3 East Thomas Road, Phoenix",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 9,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07432001829147, 33.47938859391589],
+        [-112.07341611385345, 33.47938411953882],
+        [-112.07340806722641, 33.48066378196581],
+        [-112.07431197166443, 33.48066378196581],
+        [-112.07432001829147, 33.47938859391589]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.073863778945, 33.4800250653744]
+  }
+}, {
+  "id": 367,
+  "name": "P140 8th Street / Sheridan",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "East Sheridan Street, Encanto, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 2,
+  "available_bikes": 2,
+  "free_racks": 8,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06461310386658, 33.4754018323113],
+        [-112.06354022026062, 33.475419730640894],
+        [-112.06359386444092, 33.47422053438288],
+        [-112.0645272731781, 33.47423843295648],
+        [-112.06461310386658, 33.4754018323113]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.064066269354, 33.4748338674807]
+  }
+}, {
+  "id": 377,
+  "name": "P151 3131 S. Central Ave Audubon Center",
+  "racks_amount": 11,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "South Central Avenue, South Mountain, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 0,
+  "available_bikes": 0,
+  "free_racks": 7,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07363605499268, 33.41829630351136],
+        [-112.07234859466551, 33.41828734845147],
+        [-112.07229495048523, 33.418900767918984],
+        [-112.07359313964844, 33.418918677911314],
+        [-112.07363605499268, 33.41829630351136]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07296969009, 33.4186012452694]
+  }
+}, {
+  "id": 492,
+  "name": "P138 Encanto Park",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "West Holly Street, Encanto, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 8,
+  "available_bikes": 8,
+  "free_racks": 2,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.09058225154877, 33.471003205714894],
+        [-112.08975076675415, 33.47099873090478],
+        [-112.08973467350005, 33.47193843595961],
+        [-112.09058225154877, 33.47193843595961],
+        [-112.09058225154877, 33.471003205714894]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.090162135878, 33.4714711951801]
+  }
+}, {
+  "id": 595,
+  "name": "P141 Phoenix College",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "3000-3048 North 11th Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 8,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.0888066291809, 33.483518345415995],
+        [-112.08780884742737, 33.48350939708822],
+        [-112.08779811859131, 33.48275773425419],
+        [-112.0888066291809, 33.482775631064115],
+        [-112.0888066291809, 33.483518345415995]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.08823800086975, 33.483115669750546]
+  }
+}, {
+  "id": 620,
+  "name": "P102 1st St / Buchanan Sponsored by CCBG Architects",
+  "racks_amount": 7,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "Suite 1400, South 1st Street, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 0,
+  "available_bikes": 0,
+  "free_racks": 7,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07176923751831, 33.443241514514284],
+        [-112.07324981689453, 33.443241514514284],
+        [-112.07316398620605, 33.44395771043768],
+        [-112.07179069519043, 33.44392190078193],
+        [-112.07176923751831, 33.443241514514284]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.072499955984, 33.4435864339528]
+  }
+}, {
+  "id": 621,
+  "name": "P121 5th St / Van Buren Sponsored by APS",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "College of Medicine Administration, 550, East Van Buren Street, Central City, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 7,
+  "available_bikes": 7,
+  "free_racks": 7,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06793367862701, 33.451974225006765],
+        [-112.0668876171112, 33.451960797628686],
+        [-112.06686615943909, 33.45126257110316],
+        [-112.0679497718811, 33.45127152276085],
+        [-112.06793367862701, 33.451974225006765]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.06747626846, 33.4515775957345]
+  }
+}, {
+  "id": 628,
+  "name": "P132 Welcome Diner 10th Street / Roosevelt",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1001 North 10th Street, Phoenix",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06134145519172, 33.459148515721616],
+        [-112.06133072635566, 33.45846377344463],
+        [-112.06023638507759, 33.458495101640715],
+        [-112.0602927114669, 33.45916865511849],
+        [-112.06111445590068, 33.45916315057446],
+        [-112.06134145519172, 33.459148515721616]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.060802366799, 33.4588190671665]
+  }
+}, {
+  "id": 629,
+  "name": "P120 Central / Taylor Sponsored by SRP",
+  "racks_amount": 12,
+  "description": "Civic Space Park",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "METRO Light Rail, East Washington Street (Frontage Road), Central City, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 0,
+  "available_bikes": 0,
+  "free_racks": 11,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07449436187744, 33.45386746450457],
+        [-112.07448899745941, 33.453267719349306],
+        [-112.07353413105011, 33.453267719349306],
+        [-112.07354112895699, 33.453858616101726],
+        [-112.07449436187744, 33.45386746450457]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.074026997431, 33.4535346952061]
+  }
+}, {
+  "id": 632,
+  "name": "P129 5th Street / Roosevelt",
+  "racks_amount": 10,
+  "description": "Roosevelt Row",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1000-1022 North 5th Street, Phoenix",
+  "distance": null,
+  "current_bikes": 1,
+  "available_bikes": 1,
+  "free_racks": 9,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.0669412612915, 33.45928288590314],
+        [-112.06696271896362, 33.45845045469656],
+        [-112.06804633140564, 33.45845045469656],
+        [-112.06803560256958, 33.45930078756174],
+        [-112.0669412612915, 33.45928288590314]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.067498385913, 33.4588718742282]
+  }
+}, {
+  "id": 655,
+  "name": "7th St. / Garfield",
+  "racks_amount": 2,
+  "description": "hosted by Mother Bunch Brewing",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "809 North 7th Street, Phoenix",
+  "distance": null,
+  "current_bikes": 0,
+  "available_bikes": 0,
+  "free_racks": 2,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06487998366356, 33.45743340088277],
+        [-112.06495910882948, 33.45743340088277],
+        [-112.06503823399542, 33.457434519760405],
+        [-112.0653547346592, 33.457434519760405],
+        [-112.06535071134567, 33.45706417047386],
+        [-112.06471234560013, 33.45705298164904],
+        [-112.06472307443619, 33.45743228200513],
+        [-112.06487998366356, 33.45743340088277]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.065033976668, 33.4572458992005]
+  }
+}, {
+  "id": 658,
+  "name": "P112 3rd Street / Washington Street: Convention Center",
+  "racks_amount": 7,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "32 North 3rd Street, Phoenix",
+  "distance": null,
+  "current_bikes": 2,
+  "available_bikes": 2,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06959933042526, 33.450445728449495],
+        [-112.07013309001921, 33.450452442256086],
+        [-112.0702001452446, 33.44818762201539],
+        [-112.0697522163391, 33.44819209800305],
+        [-112.06996276974678, 33.44846121633629],
+        [-112.06973209977149, 33.44819433599679],
+        [-112.06959933042526, 33.450445728449495]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07004994153976, 33.448582067540656]
+  }
+}, {
+  "id": 660,
+  "name": "P124 3rd Street / Taylor",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "501-549 North 3rd Street, Phoenix",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07049787044524, 33.454100200313356],
+        [-112.07050859928131, 33.453178204791286],
+        [-112.06891000270844, 33.45314687467417],
+        [-112.06889390945435, 33.454073346213455],
+        [-112.07049787044524, 33.454100200313356]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.069701931634, 33.4536248993351]
+  }
+}, {
+  "id": 661,
+  "name": "P109 Adams / 1st Ave",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "114 West Adams Street, Phoenix",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07473576068878, 33.45006751650543],
+        [-112.07520514726639, 33.45007423034131],
+        [-112.07567721605301, 33.450080944176655],
+        [-112.07562357187271, 33.44874488070251],
+        [-112.07529902458191, 33.44874264272297],
+        [-112.07473576068878, 33.44875159464078],
+        [-112.07473576068878, 33.45006751650543]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07536339759827, 33.44955726345848]
+  }
+}, {
+  "id": 663,
+  "name": "P106: Cityscape 1st Street / Washington Street Sponsored by SRP",
+  "racks_amount": 13,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "2 East Jefferson Street, Phoenix",
+  "distance": null,
+  "current_bikes": 8,
+  "available_bikes": 8,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07278043031693, 33.44816971806247],
+        [-112.07278579473495, 33.447706451995515],
+        [-112.07233518362045, 33.447693023956695],
+        [-112.0723432302475, 33.44816076608462],
+        [-112.07278043031693, 33.44816971806247]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07254707813263, 33.44788773031642]
+  }
+}, {
+  "id": 665,
+  "name": "P145 5th Street / Osborn",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "3400-3498 North 5th Street, Phoenix",
+  "distance": null,
+  "current_bikes": 7,
+  "available_bikes": 7,
+  "free_racks": 3,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.067391872406, 33.488001341385434],
+        [-112.067391872406, 33.48748012672922],
+        [-112.06727117300034, 33.48747788974969],
+        [-112.06716120243073, 33.487482363708686],
+        [-112.06715852022171, 33.487663558854344],
+        [-112.06715315580367, 33.48783580574011],
+        [-112.06714510917664, 33.487996867453234],
+        [-112.067391872406, 33.488001341385434]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.06732213497162, 33.48779106632222]
+  }
+}, {
+  "id": 666,
+  "name": "P117 Grand Ave / 10th Ave",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1000-1098 Phoenix-Wickenburg Highway, Phoenix",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.08642482757568, 33.455015472579625],
+        [-112.08675473928452, 33.454726793616906],
+        [-112.08629608154297, 33.45437545435789],
+        [-112.08597421646118, 33.45467979927617],
+        [-112.08642482757568, 33.455015472579625]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.086362621544, 33.4546981241866]
+  }
+}, {
+  "id": 1267,
+  "name": "P172 4th Street / Jackson Chase Field ",
+  "racks_amount": 9,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "310 South 4th Street, Phoenix",
+  "distance": null,
+  "current_bikes": 4,
+  "available_bikes": 4,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06911385059357, 33.44530951413005],
+        [-112.06911653280258, 33.4444870201875],
+        [-112.06844598054886, 33.4444859011428],
+        [-112.06783980131148, 33.444488139232156],
+        [-112.06783980131148, 33.44490666092854],
+        [-112.06783980131148, 33.44527146696325],
+        [-112.06844329833983, 33.44528265730816],
+        [-112.06911385059357, 33.44530951413005]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.06869810819626, 33.44502304049054]
+  }
+}, {
+  "id": 1269,
+  "name": "P159 Sherman / 3rd Ave.",
+  "racks_amount": 15,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "217 West Sherman Street, Phoenix",
+  "distance": null,
+  "current_bikes": 4,
+  "available_bikes": 4,
+  "free_racks": 10,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.0773321390152, 33.44029609662134],
+        [-112.07677155733109, 33.440293858423814],
+        [-112.07676753401756, 33.43994357980108],
+        [-112.07734420895575, 33.43993350787089],
+        [-112.0773321390152, 33.44029609662134]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07705587148666, 33.440114802246114]
+  }
+}, {
+  "id": 1271,
+  "name": "P119 Grant St / 3rd St. ",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "East Grant Street, Central City, Phoenix, Arizona",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 3,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07012102007866, 33.44128761244207],
+        [-112.07011833786964, 33.441094569900294],
+        [-112.06989169120787, 33.441106320328146],
+        [-112.06990443170069, 33.44128649335612],
+        [-112.07012102007866, 33.44128761244207]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.0700103789568, 33.44116451289266]
+  }
+}, {
+  "id": 1272,
+  "name": "P136 12th St / Palm Coronado Park ",
+  "racks_amount": 20,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1815-1999 North 12th Street, Phoenix",
+  "distance": null,
+  "current_bikes": 8,
+  "available_bikes": 8,
+  "free_racks": 12,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.05575108528136, 33.468756821977664],
+        [-112.05576717853546, 33.467826032371875],
+        [-112.05651551485062, 33.467826032371875],
+        [-112.05652892589569, 33.468765771829204],
+        [-112.05575108528136, 33.468756821977664]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.05613061785698, 33.46829702060367]
+  }
+}, {
+  "id": 1273,
+  "name": "P175 9th St. / Van Buren",
+  "racks_amount": 15,
+  "description": "Verde Park",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "301-365 North 9th Street, Phoenix",
+  "distance": null,
+  "current_bikes": 9,
+  "available_bikes": 9,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.06219375133514, 33.451784003623246],
+        [-112.06190675497055, 33.45178176572215],
+        [-112.06190943717957, 33.4514057975154],
+        [-112.06218034029007, 33.45140803542621],
+        [-112.06219375133514, 33.451784003623246]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.06202208995819, 33.451540071496126]
+  }
+}, {
+  "id": 1324,
+  "name": "P169 Yuma / Central",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1302 South Central Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 4,
+  "available_bikes": 4,
+  "free_racks": 8,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07418859004974, 33.43511675305604],
+        [-112.07417786121368, 33.43494216305534],
+        [-112.07368969917297, 33.43494216305534],
+        [-112.0736789703369, 33.435130183041544],
+        [-112.07418859004974, 33.43511675305604]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07393378019333, 33.435036173048445]
+  }
+}, {
+  "id": 1325,
+  "name": "P176 Buckeye / 13th St",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1245b East Buckeye Road, Phoenix",
+  "distance": null,
+  "current_bikes": 3,
+  "available_bikes": 3,
+  "free_racks": 10,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.05563843250275, 33.43676414910105],
+        [-112.05564379692078, 33.43657165606822],
+        [-112.05563843250275, 33.43657165606822],
+        [-112.05470502376555, 33.436585085828554],
+        [-112.05469965934753, 33.43677310225498],
+        [-112.05563843250275, 33.43676414910105]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.05517172813416, 33.4366723791616]
+  }
+}, {
+  "id": 1326,
+  "name": "P174 Washington / 2nd St",
+  "racks_amount": 15,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "155-199 East Washington Street, Phoenix",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 10,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07160495221615, 33.44825588080203],
+        [-112.07160092890263, 33.44817307505392],
+        [-112.07147151231766, 33.44817587254672],
+        [-112.07138031721115, 33.44817755104232],
+        [-112.07138635218143, 33.44825923779014],
+        [-112.07160495221615, 33.44825588080203]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07149028778076, 33.44821559693446]
+  }
+}, {
+  "id": 1327,
+  "name": "P128 McKinley / 2nd St.",
+  "racks_amount": 15,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "200-252 East McKinley Street, Phoenix",
+  "distance": null,
+  "current_bikes": 9,
+  "available_bikes": 9,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07109063863754, 33.45661549746687],
+        [-112.07108929753304, 33.456685987394756],
+        [-112.07068026065825, 33.45668039295812],
+        [-112.07067757844924, 33.45661102191396],
+        [-112.07109063863754, 33.45661549746687]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07086533308029, 33.45664123189162]
+  }
+}, {
+  "id": 1328,
+  "name": "P134 Central / McDowell  Phoenix Art Museum",
+  "racks_amount": 8,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1657-1763 North Central Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 3,
+  "available_bikes": 3,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07360923290253, 33.46741433378075],
+        [-112.073695063591, 33.46741209628308],
+        [-112.07369774580002, 33.46699144569188],
+        [-112.07361191511154, 33.46699144569188],
+        [-112.07360923290253, 33.46741433378075]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07364410161972, 33.46715702116823]
+  }
+}, {
+  "id": 1329,
+  "name": "P173 Camelback / 7th Ave",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "533 West Camelback Road, Phoenix",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 9,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.08213597536087, 33.5091179624592],
+        [-112.08213329315186, 33.509030742017664],
+        [-112.08146810531616, 33.50902179632639],
+        [-112.0814573764801, 33.50912243529999],
+        [-112.08213597536087, 33.5091179624592]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.08179533481598, 33.509073234038624]
+  }
+}, {
+  "id": 1339,
+  "name": "M100 Main Street / Center  Mesa City Plaza",
+  "racks_amount": 14,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "30-52 East Main Street, Mesa",
+  "distance": null,
+  "current_bikes": 7,
+  "available_bikes": 7,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.83086931705475, 33.41536347202158],
+        [-111.83086931705475, 33.41522914148949],
+        [-111.8303570151329, 33.41523809686477],
+        [-111.83036506175995, 33.415370188542745],
+        [-111.83086931705475, 33.41536347202158]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.83061316609383, 33.41529966501612]
+  }
+}, {
+  "id": 1340,
+  "name": "M101 University / Center Street  Mesa Amphitheatre",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "13-21 East University Drive, Mesa",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.83109328150748, 33.422264423547475],
+        [-111.83109462261199, 33.4221267456918],
+        [-111.83075532317162, 33.422125626358756],
+        [-111.83075666427612, 33.42226330421619],
+        [-111.83109328150748, 33.422264423547475]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.83091759681702, 33.422192786316494]
+  }
+}, {
+  "id": 1341,
+  "name": "M103 Centennial Way / 1st Street",
+  "racks_amount": 12,
+  "description": "Mesa Main Library",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "Mesa Public Library, 64, East 1st Street, Mesa, Arizona",
+  "distance": null,
+  "current_bikes": 8,
+  "available_bikes": 8,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.82893678545952, 33.41818324581245],
+        [-111.82893812656401, 33.417942577943414],
+        [-111.82882681488991, 33.41794033916942],
+        [-111.82881340384483, 33.4181787682768],
+        [-111.82893678545952, 33.41818324581245]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.82887375354767, 33.41804780025659]
+  }
+}, {
+  "id": 1342,
+  "name": "M104 Macdonald / 1st Street  Museum of Natural History",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "82-98 North Macdonald, Mesa",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.83435887098311, 33.41722840610782],
+        [-111.83436423540115, 33.416780646475424],
+        [-111.83407723903655, 33.416780646475424],
+        [-111.8340665102005, 33.4172261673154],
+        [-111.83435887098311, 33.41722840610782]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.83419927954674, 33.416974862499515]
+  }
+}, {
+  "id": 1343,
+  "name": "M105 Robson / 1st Street  i.d.e.a. Museum",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "102-104 North Robson, Mesa",
+  "distance": null,
+  "current_bikes": 7,
+  "available_bikes": 7,
+  "free_racks": 2,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.8370008468628, 33.41690154180369],
+        [-111.8370008468628, 33.416567959841245],
+        [-111.83675676584244, 33.416563482222294],
+        [-111.83675944805145, 33.41689706420194],
+        [-111.8370008468628, 33.41690154180369]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.83686941862106, 33.41670004949639]
+  }
+}, {
+  "id": 1344,
+  "name": "M106 Main Street / Country Club Drive",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "1 North Morris, Mesa",
+  "distance": null,
+  "current_bikes": 7,
+  "available_bikes": 7,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.83946043252945, 33.4152313803334],
+        [-111.8394550681114, 33.41538809926327],
+        [-111.83904469013214, 33.41538362158348],
+        [-111.83904200792313, 33.41522914148949],
+        [-111.83946043252945, 33.4152313803334]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.83923780918121, 33.41529630678153]
+  }
+}, {
+  "id": 1345,
+  "name": "M107 Main Street / Sycamore",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "1833 West Main Street, Mesa",
+  "distance": null,
+  "current_bikes": 5,
+  "available_bikes": 5,
+  "free_racks": 5,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.87104009091854, 33.414746669281755],
+        [-111.87104143202305, 33.414586590903674],
+        [-111.87071688473225, 33.414586590903674],
+        [-111.87071822583675, 33.41474778870993],
+        [-111.87104009091854, 33.414746669281755]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.87087379395962, 33.414664391271124]
+  }
+}, {
+  "id": 1346,
+  "name": "M108 Main Street / Mesa Drive",
+  "racks_amount": 18,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "420-428 East Main Street, Mesa",
+  "distance": null,
+  "current_bikes": 9,
+  "available_bikes": 9,
+  "free_racks": 9,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.82243645191193, 33.4154978023459],
+        [-111.82243645191193, 33.415182125754185],
+        [-111.82158619165419, 33.415179886909],
+        [-111.82159423828125, 33.41549108583461],
+        [-111.82243645191193, 33.4154978023459]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.82196170091629, 33.41534556129599]
+  }
+}, {
+  "id": 1347,
+  "name": "M109 Main Street / Horne",
+  "racks_amount": 4,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "723 East Main Street, Mesa",
+  "distance": null,
+  "current_bikes": 2,
+  "available_bikes": 2,
+  "free_racks": 2,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.81538224220274, 33.415036600697846],
+        [-111.81538224220274, 33.41482167093779],
+        [-111.81488871574402, 33.41485301489427],
+        [-111.81488871574402, 33.415036600697846],
+        [-111.81538224220274, 33.415036600697846]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.81513547897339, 33.414929135817815]
+  }
+}, {
+  "id": 1348,
+  "name": "M110 2nd street / Hobson",
+  "racks_amount": 10,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "170-198 North Hobson, Mesa",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 4,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.81877255439758, 33.41878883038316],
+        [-111.81876718997954, 33.41845525567078],
+        [-111.81845337152481, 33.41845525567078],
+        [-111.81845337152481, 33.41878659163097],
+        [-111.81877255439758, 33.41878883038316]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.81860357522964, 33.41859853624115]
+  }
+}, {
+  "id": 1349,
+  "name": "M111 Broadway / Olive",
+  "racks_amount": 6,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "625 East Broadway Road, Mesa",
+  "distance": null,
+  "current_bikes": 4,
+  "available_bikes": 4,
+  "free_racks": 2,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.81782305240631, 33.40778690540614],
+        [-111.81782305240631, 33.407692865852624],
+        [-111.81754946708679, 33.407706300080775],
+        [-111.81755751371382, 33.40779362251321],
+        [-111.81782305240631, 33.40778690540614]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.81768625974655, 33.40774324418292]
+  }
+}, {
+  "id": 1350,
+  "name": "M112 6th Street / Mesa Drive",
+  "racks_amount": 12,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "213",
+  "address": "377-399 East 6th Street, Mesa",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-111.82309895753859, 33.42595925745161],
+        [-111.82309627532958, 33.42585404472623],
+        [-111.8228468298912, 33.42585852186609],
+        [-111.82283610105513, 33.425965973153154],
+        [-111.82309895753859, 33.42595925745161]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-111.82296752929686, 33.425910008939695]
+  }
+}, {
+  "id": 1441,
+  "name": "P110 Van Buren St & 1st Ave ",
+  "racks_amount": 14,
+  "description": "Central Station",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "Central Station NB Lane Stop 2, Phoenix",
+  "distance": null,
+  "current_bikes": 6,
+  "available_bikes": 6,
+  "free_racks": 8,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07516491413116, 33.452074930276176],
+        [-112.07437366247177, 33.45205926501972],
+        [-112.07436829805374, 33.451401321693616],
+        [-112.07518637180328, 33.45139908378262],
+        [-112.07516491413116, 33.452074930276176]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07477733492851, 33.451737007029394]
+  }
+}, {
+  "id": 1782,
+  "name": "P118 Enchanted Island",
+  "racks_amount": 20,
+  "description": "",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "1202 West Encanto Boulevard, Phoenix",
+  "distance": null,
+  "current_bikes": 8,
+  "available_bikes": 8,
+  "free_racks": 12,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.0881924033165, 33.47374062749915],
+        [-112.08814479410648, 33.47369755880266],
+        [-112.08831377327441, 33.47356723391546],
+        [-112.08835937082767, 33.47361198067995],
+        [-112.0881924033165, 33.47374062749915]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.0882473886013, 33.47364665940653]
+  }
+}, {
+  "id": 2023,
+  "name": "P177 Indianola / 3rd Street",
+  "racks_amount": 7,
+  "description": "Co+Hoots",
+  "network_id": 20,
+  "has_kiosk": false,
+  "public": false,
+  "display_method": "auto",
+  "collapse_bikes": true,
+  "area_id": "80",
+  "address": "222 East Indianola Avenue, Phoenix",
+  "distance": null,
+  "current_bikes": 1,
+  "available_bikes": 1,
+  "free_racks": 6,
+  "sponsored": false,
+  "sponsored_bikes": 0,
+  "polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-112.07075536234697, 33.492475564481914],
+        [-112.07075268030167, 33.49219555114487],
+        [-112.07056425511837, 33.492193873501556],
+        [-112.07044422626495, 33.49219834721695],
+        [-112.07043685019016, 33.49235436789593],
+        [-112.07042612135409, 33.49248242766969],
+        [-112.07057833655197, 33.49248451188333],
+        [-112.07075536234697, 33.492475564481914]
+      ]
+    ]
+  },
+  "middle_point": {
+    "type": "Point",
+    "coordinates": [-112.07065880282244, 33.49235924808893]
+  }
+}],
+"bikes": [{
+  "id": 1439,
+  "name": "GRID 066",
+  "state": "available",
+  "repair_state": "working",
+  "network_id": 20,
+  "hub_id": null,
+  "inside_area": true,
+  "distance": null,
+  "address": "30, North 3rd Avenue, Phoenix, Arizona",
+  "sponsored": false,
+  "current_position": {
+    "type": "Point",
+    "coordinates": [-112.07765666666667, 33.44857]
+  }
+}, {
+  "id": 561,
+  "name": "GRID 051",
+  "state": "available",
+  "repair_state": "working",
+  "network_id": 20,
+  "hub_id": null,
+  "inside_area": true,
+  "distance": null,
+  "address": "2951-2983 North 3rd Avenue, Phoenix",
+  "sponsored": false,
+  "current_position": {
+    "type": "Point",
+    "coordinates": [-112.07824, 33.481476666666666]
+  }
+}, {
+  "id": 1447,
+  "name": "GRID 296",
+  "state": "available",
+  "repair_state": "working",
+  "network_id": 20,
+  "hub_id": null,
+  "inside_area": true,
+  "distance": null,
+  "address": "740 West Grant Street, Phoenix",
+  "sponsored": false,
+  "current_position": {
+    "type": "Point",
+    "coordinates": [-112.08416, 33.44129]
+  }
+}, {
+  "id": 1437,
+  "name": "GRID 057",
+  "state": "available",
+  "repair_state": "working",
+  "network_id": 20,
+  "hub_id": null,
+  "inside_area": true,
+  "distance": null,
+  "address": "4402 North Central Avenue, Phoenix",
+  "sponsored": false,
+  "current_position": {
+    "type": "Point",
+    "coordinates": [-112.07396, 33.46727166666667]
+  }
+}, {
+  "id": 1240,
+  "name": "GRID 090",
+  "state": "available",
+  "repair_state": "working",
+  "network_id": 20,
+  "hub_id": null,
+  "inside_area": true,
+  "distance": null,
+  "address": "South 9th Avenue, Phoenix, Arizona",
+  "sponsored": false,
+  "current_position": {
+    "type": "Point",
+    "coordinates": [-112.08427833333333, 33.441356666666664]
+  }
+}],
+"totals": {
+  "total_bikes_inside_hubs": 327,
+  "total_bikes_outside_hubs": 5
+}
+}
+
